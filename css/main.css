@@ -1,70 +1,89 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
+  font-weight: normal;
   background-color: #c9b5ab;
-
 }
 
 *, *::before, *::after {
-
   box-sizing: inherit;
 }
 
 h1 {
-
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.5rem;
-  color: #3f1622
+  color: #3f1622;
 }
 
-nav ol,a {
-  font-family: 'PT Sans', sans-serif;
+nav ol, a {
+  font-family: "PT Sans", sans-serif;
   font-size: 1.125rem;
   list-style-type: none;
   text-decoration: none;
   color: #8f2440;
 }
 
+a,
+a:link {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
+
 img {
   align-items: center;
   width: 100%;
-
 }
 
 figcaption {
-  font-family: 'PT Sans' serif;
   font-style: italic;
   text-align: center;
   font-size: 1.125rem;
 }
 
 .days {
-font-size: 1.5rem;
-font-weight: bold;
+  font-size: 1.125rem;
+  font-weight: bold;
 }
 
 main p {
-  font-size: 1.5rem;
+  font-size: 1.125rem;
 }
 
 blockquote p {
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-style: italic;
 }
 
 blockquote cite {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 h2 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.5rem;
-  color: #3f1622
+  color: #3f1622;
 }
-.varieties {
 
+.varieties {
+  list-style-type: lower-greek;
+  font-size: 1.125rem;
 }
 
 .serving {
+  font-family: "PT Serif", serif;
+  font-style: italic;
+}
 
+dt {
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+dd {
+  font-size: 1.125rem;
 }
