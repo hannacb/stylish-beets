@@ -52,6 +52,15 @@ blockquote p {
   font-style: italic;
 }
 
+blockquote cite {
+  font-size: 0.8rem;
+}
+
+h2 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.5rem;
+  color: #3f1622
+}
 .varieties {
 
 }
