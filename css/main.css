@@ -13,13 +13,49 @@ html {
 h1 {
 
   font-family: 'PT Sans', sans-serif;
+  font-size: 1.5rem;
   color: #3f1622
 }
 
-nav ol {
+nav ol,a {
   font-family: 'PT Sans', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   list-style-type: none;
   text-decoration: none;
   color: #8f2440;
+}
+
+img {
+  align-items: center;
+  width: 100%;
+
+}
+
+figcaption {
+  font-family: 'PT Sans' serif;
+  font-style: italic;
+  text-align: center;
+  font-size: 1.125rem;
+}
+
+.days {
+font-size: 1.5rem;
+font-weight: bold;
+}
+
+main p {
+  font-size: 1.5rem;
+}
+
+blockquote p {
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+}
+
+.varieties {
+
+}
+
+.serving {
+
 }
